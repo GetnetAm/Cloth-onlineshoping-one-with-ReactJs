@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
+import Breadcrum from './Components/BreadCrum/Breadcrum';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Navbar />
       <Routes>
       <Route path='/' element={<Shop />} />
+      {/* <Route path='/br' element={<Breadcrum />} /> */}
    
       <Route path='/mens' element={<ShopeCategory banner={men_banner} category="men" />}  />
       <Route path='/womens' element={<ShopeCategory banner={women_banner} category="women" />} />

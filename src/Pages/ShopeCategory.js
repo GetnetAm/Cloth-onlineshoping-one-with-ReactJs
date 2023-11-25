@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Css/ShopCategory.css'
-import { ShopContext } from '../Content/Contex'
+import { ShopContext } from '../Content/ShopContext'
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 import Item from '../Components/Item/Item'
 
@@ -13,6 +13,7 @@ function ShopeCategory(props) {
         <p>
           <span>Showing 1-12</span> out of 36 producs
         </p>
+      
 
         <div className='shopcategory-sort'>
         sort by <img src={dropdown_icon} alt='' />
